@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+font-family: 'Questrial', sans-serif;
+}
+
+h2{
+font-family: 'Questrial', sans-serif;
+}
+
+.view {
+  min-height: 70vh;
+  overflow: hidden;
+}
+
+.bank {
+  display: flex;
+  max-width: 40%;
+}
+
+
+.torchholder::before {
+  content : url("images/torche.gif");
+  display: block;
+  overflow: hidden;
+  max-width: 60px;
+  max-height: 80px;
+  position: absolute;
+}
+
+
+.person {
+  flex-basis: 130px;
+  flex-grow: 0;
+  align-self: flex-end;
+  padding-bottom: 27%;
+}
+
+.person img {
+  width: 100%;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  background: #282828 url("images/fond.gif") bottom center no-repeat;
+  background-size: cover;
+}
+
+section2 {
+  background-size: cover;
+}
+
+footer {
+  position: relative;
+}
+
+footer h1 {
+  position: absolute;
+  top : -62px;
+  border: 6px solid blue;
+  border-radius: 12px;
+  padding: 4px;
+}
+
+.choices{
+  display: flex;
+  background-color: #6f72b5;
+  justify-content: space-evenly;
+}
+
+.choice {
+  border: 5px solid #213268;
+  flex-basis: 16%;
+}
+
+.choice a {
+  display: flex;
+}
+
+p {
+  color: #ffff;
+}
+
+.chrono  {
+  width : 200px;
+  height : 200px;
+  background:  url('images/chrono.png') 50% 50% no-repeat ;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  position: absolute;
+  top : 40%;
+  left: 50%;
+  transform: translateX(-50%);
+
+
+}
